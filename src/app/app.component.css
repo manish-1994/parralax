@@ -1,0 +1,108 @@
+
+
+
+.cardi{
+  text-align:center;
+  background-image: linear-gradient(90deg,#fbc531,#e84118);
+  color:white;
+}
+
+.cardi:hover{
+   }
+
+.color{
+  background-image: linear-gradient(90deg,#fbc531,#e84118);
+  color:white;
+}
+
+.btn{
+  background-image: linear-gradient(90deg,#fbc531,#e84118);
+  color:white;
+}
+
+.color1{
+  background-image: linear-gradient(90deg,#fbc531,#e84118);
+}
+
+
+[data-scroll] {
+  transition: all 2s;
+}
+[data-scroll="in"] {
+  opacity: 1;
+  transform:translateX(0);
+}
+[data-scroll="out"] {
+  opacity: 0;
+  transform: translateX(-200px);
+}
+
+.parallax {
+  /* The image used */
+  background-image: url("~src/assets/9414440840_6330620837_o.jpg");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h3{
+  font-size:50px;
+  font-weight:bolder;
+}
+
+
+p{
+  /*font-weight: bold;*/
+  word-spacing:5px;
+  font-size:20px;
+}
+.design{
+  color:white;
+  background-color: #6EA4BF;
+}
+
+.parallax1{
+  background-image: url("~src/assets/tumblr_piv0izKXx21vih7pio1_1280.jpg");
+
+  /* Set a specific height */
+  min-height: 200px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
+.parallax1:hover{
+  transform: scale(1.2);
+  transition:0.5s;
+}
+
+.progress-container {
+  width: 100%;
+  height: 8px;
+  background: #ECE2D0;
+}
+
+.progress-bar {
+  height: 8px;
+  background:#582C4D;
+  width: 0%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: #f1f1f1;
+}

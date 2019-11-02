@@ -6,8 +6,29 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--animate on scroll css-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
   <app-root></app-root>
+  <!--animate on scroll and scroll indicator-->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+  <script>
+    AOS.init();
+  </script>
+<script>
+  //paste this code under the head tag or in a separate js file.
+  // Wait for window load
+  $(window).load(function() {
+  // Animate loader off screen
+      $(".se-pre-con").fadeOut("slow");
+  });
+</script>
 </body>
+<div class="se-pre-con"><div>
 </html>
